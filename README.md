@@ -1,343 +1,360 @@
-\!\[CI\](https://github.com/KaJLabs/LithoVault/actions/workflows/ci.yml/badge.svg)  
-\!\[Tests\](https://github.com/KaJLabs/LithoVault/actions/workflows/test.yml/badge.svg)  
-\!\[Coverage\](https://codecov.io/gh/KaJLabs/LithoVault/branch/main/graph/badge.svg)  
-\!\[Lint\](https://github.com/KaJLabs/LithoVault/actions/workflows/lint.yml/badge.svg)  
-\!\[Docker\](https://github.com/KaJLabs/LithoVault/actions/workflows/docker.yml/badge.svg)  
-\!\[Security\](https://github.com/KaJLabs/LithoVault/actions/workflows/security.yml/badge.svg)  
-\!\[License\](https://img.shields.io/badge/license-MIT-blue.svg)  
-\!\[Network\](https://img.shields.io/badge/network-Lithosphere%20Makalu-purple)  
-\!\[Chain ID\](https://img.shields.io/badge/chain--id-700777-green)  
-\!\[Status\](https://img.shields.io/badge/status-beta-orange)
+![CI](https://github.com/KaJLabs/LithoVault/actions/workflows/ci.yml/badge.svg)
+![Tests](https://github.com/KaJLabs/LithoVault/actions/workflows/test.yml/badge.svg)
+![Coverage](https://codecov.io/gh/KaJLabs/LithoVault/branch/main/graph/badge.svg)
+![Lint](https://github.com/KaJLabs/LithoVault/actions/workflows/lint.yml/badge.svg)
+![Docker](https://github.com/KaJLabs/LithoVault/actions/workflows/docker.yml/badge.svg)
+![Security](https://github.com/KaJLabs/LithoVault/actions/workflows/security.yml/badge.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Network](https://img.shields.io/badge/network-Lithosphere%20Makalu-purple)
+![Chain ID](https://img.shields.io/badge/chain--id-700777-green)
+![Status](https://img.shields.io/badge/status-beta-orange)
 
-\!\[CI\](https://github.com/YOUR\_ORG/YOUR\_REPO/actions/workflows/ci.yml/badge.svg)  
-\!\[Coverage\](https://codecov.io/gh/YOUR\_ORG/YOUR\_REPO/branch/main/graph/badge.svg)
-
-# **🚀 LithoVault**
+# 🚀 LithoVault
 
 Autonomous AI-powered treasury infrastructure built on Lithosphere
 
-License
-
-Build  
 ---
 
-## **🧠 Overview**
+## 🧠 Overview
 
 LithoVault is a production-grade autonomous treasury system that enables enterprises and individuals to manage capital using AI-driven DeFi strategies.
 
 Built on the **Lithosphere network**, the platform combines:
 
-* AI agents (Quantts)  
-* APP payment rails  
-* DNNS identity layer  
-* MultX execution coordination  
-* Multi-signature governance
+- AI agents (Quantts)
+- APP payment rails
+- DNNS identity layer
+- MultX execution coordination
+- Multi-signature governance
 
 ---
 
-## **⚙️ Core Features**
+## ⚙️ Core Features
 
-* 🤖 Autonomous treasury execution via AI agents  
-* 💸 Multi-protocol DeFi strategy orchestration  
-* 🛡️ Enterprise-grade governance (multi-sig \+ policy controls)  
-* 📊 Real-time analytics (PnL, risk, exposure)  
-* 🔗 Cross-chain ready execution via MultX  
-* 🧾 Immutable audit trails for compliance
-
----
-
-## **🧩 Tech Stack**
-
-### **On-Chain**
-
-* Lithosphere (Makalu Testnet)  
-* Lithic smart contracts  
-* EVM-compatible integrations
-
-### **Off-Chain**
-
-* Node.js (API \+ agent orchestration)  
-* Next.js (web dashboard)  
-* React Native (mobile apps)  
-* PostgreSQL \+ Redis  
-* Kafka / queue systems
-
-### **AI Layer**
-
-* Multi-model orchestration (LLMs)  
-* Strategy execution pipelines  
-* Risk and optimization engines
+- 🤖 Autonomous treasury execution via AI agents
+- 💸 Multi-protocol DeFi strategy orchestration
+- 🛡️ Enterprise-grade governance (multi-sig + policy controls)
+- 📊 Real-time analytics (PnL, risk, exposure)
+- 🔗 Cross-chain ready execution via MultX
+- 🧾 Immutable audit trails for compliance
 
 ---
 
-## **🌐 Network Configuration**
+## 🧩 Tech Stack
 
-Network Name: Lithosphere Makalu  
-Chain ID: 700777  
-RPC URL: https://rpc.litho.ai  
-Explorer: https://explorer.litho.ai  
+### On-Chain
+
+- Lithosphere (Makalu Testnet)
+- Lithic smart contracts
+- EVM-compatible integrations
+
+### Off-Chain
+
+- Node.js (API + agent orchestration)
+- Next.js (web dashboard)
+- React Native (mobile apps)
+- PostgreSQL + Redis
+- Kafka / queue systems
+
+### AI Layer
+
+- Multi-model orchestration (LLMs)
+- Strategy execution pipelines
+- Risk and optimization engines
+
 ---
 
-## **📦 Monorepo Structure**
+## 🌐 Network Configuration
 
-.  
-├── apps/  
-│   ├── web/            \# Next.js dashboard  
-│   ├── mobile/         \# React Native app  
-│   └── admin/          \# Governance UI  
-│  
-├── backend/  
-│   ├── api/            \# Backend services  
-│   ├── agents/         \# AI agent runtime  
-│   ├── execution/      \# MultX \+ APP integration  
-│   ├── indexer/        \# Blockchain indexer  
-│   └── analytics/      \# Risk \+ PnL engine  
-│  
-├── contracts/  
-│   ├── lithic/         \# Core contracts  
-│   └── integrations/   \# Protocol adapters  
-│  
-├── sdk/  
-│   ├── js/  
-│   ├── python/  
-│   └── rust/  
-│  
-├── cli/  
-│   └── lithovault-cli  
-│  
-├── docs/  
-│   ├── whitepaper/  
-│   ├── api/  
-│   └── sdk/  
-│  
-└── infra/  
-   ├── docker/  
-   ├── k8s/  
-   └── terraform/  
+- **Network Name:** Lithosphere Makalu
+- **Chain ID:** 700777
+- **RPC URL:** https://rpc.litho.ai
+- **Explorer:** https://explorer.litho.ai
+
 ---
 
-## **🚀 Quick Start**
+## 📦 Monorepo Structure
 
-### **1\. Clone Repo**
+```bash
+.
+├── apps/
+│   ├── web/        # Next.js dashboard
+│   ├── mobile/     # React Native app
+│   └── admin/      # Governance UI
+│
+├── backend/
+│   ├── api/        # Backend services
+│   ├── agents/     # AI agent runtime
+│   ├── execution/  # MultX + APP integration
+│   ├── indexer/    # Blockchain indexer
+│   └── analytics/  # Risk + PnL engine
+│
+├── contracts/
+│   ├── lithic/     # Core contracts
+│   └── integrations/
+│
+├── sdk/
+│   ├── js/
+│   ├── python/
+│   └── rust/
+│
+├── cli/
+│   └── lithovault-cli
+│
+├── docs/
+│   ├── whitepaper/
+│   ├── api/
+│   └── sdk/
+│
+└── infra/
+    ├── docker/
+    ├── k8s/
+    └── terraform/
+```
 
-git clone https://github.com/your-org/lithovault.git  
-cd lithovault  
 ---
 
-### **2\. Install Dependencies**
+## 🚀 Quick Start
 
-pnpm install  
-\# or  
-yarn install  
----
+### 1. Clone Repo
 
-### **3\. Setup Environment**
+```bash
+git clone https://github.com/your-org/lithovault.git
+cd lithovault
+```
 
+### 2. Install Dependencies
+
+```bash
+pnpm install
+# or
+yarn install
+```
+
+### 3. Setup Environment
+
+```bash
 cp .env.example .env
+```
 
 Update:
 
-RPC\_URL=https://rpc.litho.ai  
-CHAIN\_ID=700777
+```env
+RPC_URL=https://rpc.litho.ai
+CHAIN_ID=700777
 
-PRIVATE\_KEY=your\_private\_key  
-DATABASE\_URL=postgres://...  
-REDIS\_URL=redis://...
+PRIVATE_KEY=your_private_key
+DATABASE_URL=postgres://...
+REDIS_URL=redis://...
 
-MULTX\_ENDPOINT=https://multx.litho.ai  
-DNNS\_ENDPOINT=https://dnns.litho.ai  
+MULTX_ENDPOINT=https://multx.litho.ai
+DNNS_ENDPOINT=https://dnns.litho.ai
+```
+
+### 4. Run Backend
+
+```bash
+cd backend/api
+pnpm dev
+```
+
+### 5. Run Web App
+
+```bash
+cd apps/web
+pnpm dev
+```
+
+### 6. Start Agents
+
+```bash
+cd backend/agents
+pnpm start
+```
+
 ---
 
-### **4\. Run Backend**
+## 🧠 CLI Usage
 
-cd backend/api  
-pnpm dev  
+```bash
+lithovault init
+lithovault deploy-vault
+lithovault deposit
+lithovault rebalance
+lithovault agents start
+```
+
 ---
 
-### **5\. Run Web App**
+## 📡 API Example
 
-cd apps/web  
-pnpm dev  
----
-
-### **6\. Start Agents**
-
-cd backend/agents  
-pnpm start  
----
-
-## **🧠 CLI Usage**
-
-lithovault init  
-lithovault deploy-vault  
-lithovault deposit  
-lithovault rebalance  
-lithovault agents start  
----
-
-## **📡 API Example**
-
+```http
 POST /vault/rebalance
+```
 
-{  
- "vaultId": "0x123...",  
- "strategy": "yield-optimizer"  
-}  
----
-
-## **🧱 Smart Contracts**
-
-### **Core Modules**
-
-* Vault (asset management)  
-* Strategy Manager (execution logic)  
-* Risk Module (limits \+ circuit breakers)  
-* Governance (multi-sig \+ proposals)  
-* DNNS Registry (identity)  
-* ZK Identity Verifier
+```json
+{
+  "vaultId": "0x123...",
+  "strategy": "yield-optimizer"
+}
+```
 
 ---
 
-## **🤖 Agent System**
+## 🧱 Smart Contracts
 
-Agents operate autonomously:
+### Core Modules
 
-| Agent Type | Function |
-| ----- | ----- |
-| Yield Agent | Maximizes returns |
-| Risk Agent | Monitors exposure |
-| Rebalance Agent | Maintains allocations |
-| Governance Agent | Executes approvals |
-
----
-
-## **🔄 Execution Flow**
-
-AI Decision  
-  ↓  
-APP Payment Intent  
-  ↓  
-MultX Execution  
-  ↓  
-Smart Contract Call  
-  ↓  
-Settlement on Lithosphere  
----
-
-## **🔐 Security**
-
-* Multi-signature governance  
-* Transaction simulation before execution  
-* Circuit breakers for risk events  
-* Role-based access control  
-* Audit logging for all actions
+- Vault (asset management)
+- Strategy Manager (execution logic)
+- Risk Module (limits + circuit breakers)
+- Governance (multi-sig + proposals)
+- DNNS Registry (identity)
+- ZK Identity Verifier
 
 ---
 
-## **🧪 Development Flags**
+## 🤖 Agent System
 
-\# Enable mock AI models  
-AI\_MODE=mock
+| Agent Type        | Function               |
+|------------------|------------------------|
+| Yield Agent      | Maximizes returns      |
+| Risk Agent       | Monitors exposure      |
+| Rebalance Agent  | Maintains allocations  |
+| Governance Agent | Executes approvals     |
 
-\# Disable on-chain execution  
-DRY\_RUN=true
+---
 
-\# Enable debug logs  
+## 🔄 Execution Flow
+
+```
+AI Decision
+  ↓
+APP Payment Intent
+  ↓
+MultX Execution
+  ↓
+Smart Contract Call
+  ↓
+Settlement on Lithosphere
+```
+
+---
+
+## 🔐 Security
+
+- Multi-signature governance
+- Transaction simulation before execution
+- Circuit breakers for risk events
+- Role-based access control
+- Audit logging for all actions
+
+---
+
+## 🧪 Development Flags
+
+```env
+AI_MODE=mock
+DRY_RUN=true
 DEBUG=true
-
-\# Use local fork  
-FORK\_MODE=true  
----
-
-## **🧱 Deployment**
-
-### **Docker**
-
-docker-compose up \--build
-
-### **Kubernetes**
-
-kubectl apply \-f infra/k8s/  
----
-
-## **📊 Monitoring**
-
-* Prometheus metrics  
-* Grafana dashboards  
-* OpenTelemetry tracing  
-* Real-time alerting
+FORK_MODE=true
+```
 
 ---
 
-## **🧾 Whitepaper**
+## 🧱 Deployment
+
+### Docker
+
+```bash
+docker-compose up --build
+```
+
+### Kubernetes
+
+```bash
+kubectl apply -f infra/k8s/
+```
+
+---
+
+## 📊 Monitoring
+
+- Prometheus metrics
+- Grafana dashboards
+- OpenTelemetry tracing
+- Real-time alerting
+
+---
+
+## 🧾 Whitepaper
 
 Available in:
 
+```
 docs/whitepaper/
+```
 
 Includes:
 
-* Protocol architecture  
-* AI execution model  
-* Risk framework  
-* Economic design
+- Protocol architecture
+- AI execution model
+- Risk framework
+- Economic design
 
 ---
 
-## **🔗 Integrations**
+## 🔗 Integrations
 
-* Lithosphere Network  
-* DNNS Identity Layer  
-* APP Protocol (payments)  
-* MultX (execution coordination)  
-* DeFi protocols (staking, LPs, stablecoins)
-
----
-
-## **🛣️ Roadmap**
-
-* Core vault architecture  
-* AI agent system  
-* Makalu testnet deployment  
-* Cross-chain treasury bridge  
-* zk-identity layer (production)  
-* Mainnet deployment  
-* Institutional onboarding
+- Lithosphere Network
+- DNNS Identity Layer
+- APP Protocol (payments)
+- MultX (execution coordination)
+- DeFi protocols (staking, LPs, stablecoins)
 
 ---
 
-## **🤝 Contributing**
+## 🛣️ Roadmap
+
+- Core vault architecture
+- AI agent system
+- Makalu testnet deployment
+- Cross-chain treasury bridge
+- zk-identity layer (production)
+- Mainnet deployment
+- Institutional onboarding
+
+---
+
+## 🤝 Contributing
 
 fork → branch → commit → PR
 
 Please follow:
 
-* Conventional commits  
-* Code linting rules  
-* Test coverage requirements
+- Conventional commits
+- Code linting rules
+- Test coverage requirements
 
 ---
 
-## **📜 License**
+## 📜 License
 
 MIT License
 
 ---
 
-## **⚠️ Disclaimer**
+## ⚠️ Disclaimer
 
-This software is experimental and intended for development and testing.  
- Use at your own risk. Smart contracts and AI systems are subject to failure.
-
----
-
-## **🌍 Links**
-
-* 🌐 Project: [https://lithovault.ai](https://lithovault.ai)   
-* 🌐 Explorer: [https://explorer.litho.ai](https://explorer.litho.ai)  
-* 🔗 RPC: [https://rpc.litho.ai](https://rpc.litho.ai)  
-* 🧠 DNNS: [https://dnns.litho.ai](https://dnns.litho.ai)  
-* ⚡ MultX: [https://multx.litho.ai](https://multx.litho.ai?utm_source=chatgpt.com)
+This software is experimental and intended for development and testing. Use at your own risk. Smart contracts and AI systems are subject to failure.
 
 ---
+
+## 🌍 Links
+
+- 🌐 Project: https://lithovault.ai
+- 🌐 Explorer: https://explorer.litho.ai
+- 🔗 RPC: https://rpc.litho.ai
+- 🧠 DNNS: https://dnns.litho.ai
+- ⚡ MultX: https://multx.litho.ai
 
